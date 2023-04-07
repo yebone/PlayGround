@@ -1,10 +1,16 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Test2 from "./components/Test2";
+import MarketPlace from "./components/marketPlace";
 import Redux from "./pages/Redux";
 
 function App() {
   return (
     <div className="App">
-      <Redux />
+      <Navbar />
+      {/* <Redux />
+      <Test2 /> */}
+      <MarketPlace />
     </div>
   );
 }
